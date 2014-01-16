@@ -1,0 +1,17 @@
+*.swp
+**.DS_Store
+*.rbc
+*.sassc
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/spec/tmp/*
+**.orig
+.rvmrc
+CareerImp*.xml
+/lib/database_builders.rb
+/public/uploads/*
+/spec/.DS_Store
+/spec/models/.DS_Store

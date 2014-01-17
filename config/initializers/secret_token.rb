@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Crumblr::Application.config.secret_key_base = 'ea1c3c827e287c210f869d6d8699df382a66022a17184efa83e66dc9eef422d98b38e976339ecc62ae29412cb7d7faf4f2a1a8a27f892db5fdc242f6fab7cc9c'
+SkillRails::Application.config.secret_key_base = 'ae6153a974bc917ca557ae456d63cd6da90b5c43b24413a981e77264dac3b489e106d05d5b9b20b2d0c11dadb66cb9e862c24d31fe634425ab68037fb9178f3e'

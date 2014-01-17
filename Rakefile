@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Crumblr::Application.load_tasks
+SkillRails::Application.load_tasks

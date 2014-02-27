@@ -1,3 +1,24 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background: url('pattern.png');
+  .block {
+    text-align: center;
+    margin: 20px;
+  }
+  .block:before{
+    content: '';
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+  }
+  .centered{
+    top: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 489px;
+    padding: 10px 15px;
+  }
+}

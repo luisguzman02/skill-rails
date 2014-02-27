@@ -1,0 +1,23 @@
+!!!Strict
+%html
+  %head
+    %title Crumblr
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag "application", "data-turbolinks-track" => true 
+
+    %link{ rel: "stylesheet", href: "//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" }
+
+    = csrf_meta_tags
+  %body
+    .container
+      =#.page-header
+      =#%ul.nav.nav-pills.pull-right
+      =#  %li= link_to "Welcome", root_path
+      =#  %li= link_to "Manage Posts", posts_path
+      =#  %li= link_to "About", about_path
+      =#%h1
+      =#  =link_to "crumblr", '/'
+      =#  %small // home baked goodness
+      .row
+        .col-md-6.col-md-offset-3
+          = yield

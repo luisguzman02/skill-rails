@@ -15,6 +15,8 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+gem 'haml-rails'
+
 # Use bootstrap with sass support
 gem 'bootstrap-sass'
 

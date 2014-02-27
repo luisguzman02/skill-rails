@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body{
-  background: url('assets/pattern.png');
+  background: url('pattern.png');
   .block {
     text-align: center;
     margin: 20px;
@@ -20,5 +20,11 @@ body{
     vertical-align: middle;
     width: 489px;
     padding: 10px 15px;
+  }
+  p{
+    text-align: center;
+  }
+  a{
+    text-decoration: underline;
   }
 }

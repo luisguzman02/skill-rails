@@ -5,8 +5,32 @@ html, body{
   height: 100%
 }
 body{
+  i {
+    float: left;
+    width: 42px;
+    height: 41px;
+    display: block;
+    margin-left: -42px;
+    margin-right: 10px;
+  }
+  .info-icon {
+    background: url('info-icon.png') no-repeat center center;
+  }
+
+  h2 {
+    height: 41px;
+    line-height: 41px;
+    margin-top: 0;
+  }
+
   .container-fluid{
     height: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  p, h2, h3, ul, li {
+    font-family: 'Montserrat', sans-serif;
   }
   background: url('pattern.png');
   .block {
@@ -32,5 +56,58 @@ body{
   }
   a{
     text-decoration: underline;
+  }
+  #intro, #info, #requirements, #about, #event-info {
+    height: 100vh;
+    .row {
+      margin: 0;
+      top: 50%;
+      position: relative;
+      padding: 0;
+      height: 100px;
+      .col-lg-12, .col-lg-8 {
+        padding: 0;
+        margin-top: -50px;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  #info {
+    p {
+      text-align: left;
+    }
+  }
+  #intro {
+    background: url('1.jpg') no-repeat 100%;
+    color: white;
+    font-size: 18px;
+    .row {
+      height: 370px;
+      .col-lg-12 {
+        margin-top: -185px;
+      }
+    }
+  }
+  #requirements {
+    background: url('materiales-bg.jpg') no-repeat 100%;
+    .row {
+      height: 400px;
+      .col-lg-4 {
+        margin-top: -200px;
+      }
+    }
+  }
+  #about {
+    background: url('lettres-bg.jpg') no-repeat 100%;
+    color: white;
+    p {
+      text-align: left;
+    }
+  }
+  #event-info {
+    background: url('calltoaction-bg.jpg') no-repeat 100%;
   }
 }

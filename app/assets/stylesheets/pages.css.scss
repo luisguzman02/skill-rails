@@ -16,11 +16,32 @@ body{
   .info-icon {
     background: url('info-icon.png') no-repeat center center;
   }
+  .programa-icon {
+    background: url('programa-icon.png') no-repeat center center;
+  }
+  .material-icon {
+    background: url('material-icon.png') no-repeat center center;
+  }
+  .lettres-icon {
+    background: url('lettres-icon.png') no-repeat center center;
+  }
+  .fecha-icon {
+    background: url('fecha-icon.png') no-repeat center center;
+  }
+  .lugar-icon {
+    background: url('lugar-icon.png') no-repeat center center;
+  }
+  .contacto-icon {
+    background: url('contacto-icon.png') no-repeat center center;
+  }
 
   h2 {
     height: 41px;
     line-height: 41px;
     margin-top: 0;
+  }
+  ul {
+    padding-left: 20px;
   }
 
   .container-fluid{
@@ -105,5 +126,17 @@ body{
   }
   #event-info {
     background: url('calltoaction-bg.jpg') no-repeat 100%;
+    i {
+      margin-left: 0;
+    }
+    a, .row {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    p {
+      font-size: 16px;
+      text-align: left;
+      float: left;
+    }
   }
 }

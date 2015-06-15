@@ -61,10 +61,8 @@ body{
     height: 100vh;
     .row {
       margin: 0;
-      top: 50%;
       position: relative;
       padding: 0;
-      height: 100px;
       .col-lg-12, .col-lg-8 {
         padding: 0;
         margin-top: -50px;
@@ -85,7 +83,6 @@ body{
     color: white;
     font-size: 18px;
     .row {
-      height: 370px;
       .col-lg-12 {
         margin-top: -185px;
       }
@@ -94,7 +91,6 @@ body{
   #requirements {
     background: url('materiales-bg.jpg') no-repeat 100%;
     .row {
-      height: 400px;
       .col-lg-4 {
         margin-top: -200px;
       }

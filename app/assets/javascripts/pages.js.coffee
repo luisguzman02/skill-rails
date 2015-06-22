@@ -12,6 +12,7 @@ $(document).ready ->
       'thirdPage'
       'fourthPage'
       'fifthPage'
+      'sixthSlide'
     ]
     navigation: false
     navigationPosition: 'right'
@@ -21,6 +22,7 @@ $(document).ready ->
       'thirdSlide'
       'fourthSlide'
       'fifthSlide'
+      'sixthSlide'
     ]
     css3: true
 

@@ -34,6 +34,10 @@ body{
   .contacto-icon {
     background: url('contacto-icon.png') no-repeat center center;
   }
+  .drinks-icon {
+    background: url('drinks-icon.png') no-repeat center center;
+    width: 86px;
+  }
 
   h2 {
     height: 41px;
@@ -105,7 +109,12 @@ body{
     font-size: 18px;
     .row {
       .col-lg-12 {
-        margin-top: -185px;
+        p {
+          margin: 0;
+        }
+        img {
+          height: 525px;
+        }
       }
     }
   }
